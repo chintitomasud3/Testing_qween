@@ -12,24 +12,26 @@ A production-ready, three-tier web application for tracking BMI, BMR, and daily 
 1. [Project Overview](#1-project-overview)
 2. [Architecture Overview](#2-architecture-overview)
 3. [Tech Stack](#3-tech-stack)
-4. [Folder Structure](#4-folder-structure)
-5. [Application Workflow](#5-application-workflow)
-6. [CI/CD Pipeline Overview](#6-cicd-pipeline-overview)
-7. [GitHub Actions Workflow Explanation](#7-github-actions-workflow-explanation)
-8. [Self-Hosted Runner Setup](#8-self-hosted-runner-setup)
-9. [Deployment Process](#9-deployment-process)
-10. [Environment Variables](#10-environment-variables)
-11. [Prerequisites](#11-prerequisites)
-12. [Local Development Setup](#12-local-development-setup)
-13. [Build and Run Instructions](#13-build-and-run-instructions)
-14. [Testing Instructions](#14-testing-instructions)
-15. [Production Deployment Steps](#15-production-deployment-steps)
-16. [Monitoring and Logging](#16-monitoring-and-logging)
-17. [Security Practices](#17-security-practices)
-18. [Troubleshooting](#18-troubleshooting)
-19. [Future Improvements](#19-future-improvements)
-20. [Contributing](#20-contributing)
-21. [License](#21-license)
+
+ [masud](#masud))
+5. [Folder Structure](#4-folder-structure)
+6. [Application Workflow](#5-application-workflow)
+7. [CI/CD Pipeline Overview](#6-cicd-pipeline-overview)
+8. [GitHub Actions Workflow Explanation](#7-github-actions-workflow-explanation)
+9. [Self-Hosted Runner Setup](#8-self-hosted-runner-setup)
+10. [Deployment Process](#9-deployment-process)
+11. [Environment Variables](#10-environment-variables)
+12. [Prerequisites](#11-prerequisites)
+13. [Local Development Setup](#12-local-development-setup)
+14. [Build and Run Instructions](#13-build-and-run-instructions)
+15. [Testing Instructions](#14-testing-instructions)
+16. [Production Deployment Steps](#15-production-deployment-steps)
+17. [Monitoring and Logging](#16-monitoring-and-logging)
+18. [Security Practices](#17-security-practices)
+19. [Troubleshooting](#18-troubleshooting)
+20. [Future Improvements](#19-future-improvements)
+21. [Contributing](#20-contributing)
+22. [License](#21-license)
 
 ---
 
@@ -864,6 +866,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 *Generated from the actual source code, workflow files, and infrastructure configuration in this repository.*
 
 ---
+## Masud
 
 ## Author
 
