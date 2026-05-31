@@ -24,7 +24,7 @@ jobs:
             echo "✅ Connected via password!"
             ip addr
             ls
-            echo "${{ secrets.SSH_PASSWORD }}" | sudo -S apt-get install htop
+            echo "${{ secrets.SSH_PASSWORD }}"
            
         
           
