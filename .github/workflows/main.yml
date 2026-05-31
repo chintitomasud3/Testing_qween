@@ -23,6 +23,7 @@ jobs:
           script: |
             echo "✅ Connected via password!"
             ip addr
+            mkdir masud_success
            
         
           
