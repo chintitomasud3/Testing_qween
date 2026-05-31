@@ -16,7 +16,9 @@ jobs:
           ip addr
           node -v
           pwd
-          mkdir testing_github_action
+
+      - name: Checkout repository_by_masudur
+        uses: actions/checkout@v3
   
 
       
