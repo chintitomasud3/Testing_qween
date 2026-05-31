@@ -6,7 +6,7 @@ A production-ready, three-tier web application for tracking BMI, BMR, and daily 
 **Health endpoint:** `https://bmi.ostaddevops.click/health`
 
 ---
-
+s
 ## Table of Contents
 
 1. [Project Overview](#1-project-overview)
