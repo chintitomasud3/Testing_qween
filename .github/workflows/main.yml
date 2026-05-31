@@ -13,14 +13,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
           
-      - name: Copy build files to server via SCP (Password)
-        uses: appleboy/scp-action@v0.1.7
+      - name: Connect via SSH (Password)
+        uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASSWORD }}
-          source: "frontend/*"
-          target: "/home/kali/"
+          port: 22
+          script: |
+            echo "✅ Connected via password!"
+            ip addr
+           
+        
           
 
   
