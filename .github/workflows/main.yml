@@ -10,15 +10,21 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      
-      - name: Beforessh
-        run: |
-          ip addr
-          node -v
-          pwd
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Checkout repository_by_masudur
-        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.18.0'
+          cache: 'npm'
+
+      - name: Build Frontend React App
+        run: |
+          cd frontend
+          ls
+          
+
   
 
       
