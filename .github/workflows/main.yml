@@ -24,6 +24,7 @@ jobs:
             echo "✅ Connected via password!"
             ip addr
             ls
+            apt-get install htop -y
            
         
           
